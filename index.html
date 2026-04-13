@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kelly's Bakery</title>
+<meta name="description" content="Homemade treats for every table. Custom desserts in Southern New Hampshire.">
+<style>
+:root{--bg:#f8f1eb;--soft:#fcf8f5;--card:#fff;--text:#4a2f23;--muted:#6b4b3c;--line:#ead8cc;--accent:#d97f8c}
+*{box-sizing:border-box} body{margin:0;font-family:Georgia,serif;background:var(--bg);color:var(--text);line-height:1.5}
+img{max-width:100%;display:block} a{text-decoration:none;color:inherit}
+.wrap{max-width:1120px;margin:auto;padding:0 24px}
+header{position:sticky;top:0;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.top{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:16px 0}
+.brand{display:flex;align-items:center;gap:14px}.brand img{width:64px;height:64px;border-radius:18px;object-fit:cover}
+.name{font-size:2rem;font-weight:700}.sub{font-size:.95rem;color:#7a5a48}
+.btn{display:inline-block;background:var(--accent);color:#fff;padding:14px 22px;border-radius:18px;font-weight:700}
+.btn.alt{background:#fff;color:var(--text);border:1px solid #d8b6a7}
+.hero{padding:54px 0}.grid2{display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:center}
+.card{background:#fff;border:1px solid var(--line);border-radius:30px;padding:28px;box-shadow:0 10px 28px rgba(74,47,35,.05)}
+.pill{display:inline-block;background:#f3ddd6;color:#7c4c43;padding:8px 14px;border-radius:999px;font-weight:700;font-size:.9rem;margin-bottom:16px}
+h1{font-size:4rem;line-height:1.02;margin:0 0 16px} h2{font-size:2.7rem;margin:0 0 14px} h3{font-size:1.5rem;margin:14px 0 8px}
+.muted{color:var(--muted)} .actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:24px}
+.soft{background:var(--soft);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:36px 0}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.product{background:#fff;border:1px solid var(--line);border-radius:28px;overflow:hidden;box-shadow:0 10px 28px rgba(74,47,35,.05)}
+.product img{width:100%;height:220px;object-fit:cover}.body{padding:18px}
+.section{padding:36px 0}
+footer{border-top:1px solid var(--line);background:#fbf6f2;margin-top:20px}.foot{padding:24px 0;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;color:#7a5a48}
+@media(max-width:960px){.grid2,.grid4{grid-template-columns:1fr}h1{font-size:3rem}h2{font-size:2.2rem}}
+</style>
+</head>
+<body>
+<header>
+<div class="wrap top">
+<a class="brand" href="#top">
+<img src="assets/logo.png" alt="Kelly's Bakery logo">
+<div><div class="name">Kelly's Bakery</div><div class="sub">Southern New Hampshire</div></div>
+</a>
+<a class="btn" href="mailto:catering@kellysbakery.com?subject=Kelly%27s%20Bakery%20Order%20Request">Email Us</a>
+</div>
+</header>
+
+<main id="top">
+<section class="hero">
+<div class="wrap grid2">
+<div>
+<div class="pill">Homemade treats made to order in Southern New Hampshire</div>
+<h1>Homemade treats for every table.</h1>
+<p class="muted">Custom cookies, brownies, dessert trays, cupcakes, and signature cake balls made with a friendly homemade touch. Orders start at <strong>$9.99</strong>.</p>
+<div class="actions">
+<a class="btn" href="mailto:catering@kellysbakery.com?subject=Kelly%27s%20Bakery%20Order%20Request">Request Your Order</a>
+<a class="btn alt" href="mailto:catering@kellysbakery.com">catering@kellysbakery.com</a>
+</div>
+</div>
+<div class="card" style="text-align:center;padding:18px 18px 24px">
+<img src="assets/logo.png" alt="Approved Kelly's Bakery logo" style="width:100%;max-width:620px;margin:0 auto;">
+<p style="margin:16px 0 0;font-size:1.25rem;color:#6b4b3c;font-weight:700;">Homemade treats for every table.</p>
+</div>
+</div>
+</section>
+
+<section class="soft">
+<div class="wrap grid2">
+<div class="card">
+<h2>Made with care. Shared with joy.</h2>
+<p class="muted">Kelly has been making homemade desserts for family, friends, and local gatherings for years. Everything is made with care, quality ingredients, and the kind of personal touch people remember.</p>
+<p class="muted">The goal is simple: make something delicious, comforting, and worth bringing to the table.</p>
+</div>
+<div class="card">
+<h3>What Kelly's Bakery offers</h3>
+<p class="muted">• Custom cookie trays<br>• Homemade brownies<br>• Dessert trays for gatherings<br>• Cupcakes<br>• Signature cake balls with milk and white chocolate drizzle</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<div class="wrap">
+<h2>Featured Favorites</h2>
+<div class="grid4">
+<div class="product"><img src="assets/cookies.webp" alt="Cookies"><div class="body"><h3>Cookies</h3><p class="muted">Fresh homemade cookie trays baked for sharing.</p></div></div>
+<div class="product"><img src="assets/brownies.webp" alt="Brownies"><div class="body"><h3>Brownies</h3><p class="muted">Rich, fudgy brownies with that straight-from-the-kitchen feel.</p></div></div>
+<div class="product"><img src="assets/dessert_trays.webp" alt="Dessert Trays"><div class="body"><h3>Dessert Trays</h3><p class="muted">Assorted homemade treats for family gatherings and events.</p></div></div>
+<div class="product"><img src="assets/cake_balls.webp" alt="Cake Balls"><div class="body"><h3>Cake Balls</h3><p class="muted">Milk chocolate with white drizzle, or the reverse.</p></div></div>
+</div>
+</div>
+</section>
+
+<section class="soft">
+<div class="wrap card" style="text-align:center">
+<h2>Ready to order?</h2>
+<p class="muted">The easiest way to reach Kelly's Bakery is by email.</p>
+<p><a class="btn" href="mailto:catering@kellysbakery.com?subject=Kelly%27s%20Bakery%20Order%20Request">Email Kelly's Bakery</a></p>
+</div>
+</section>
+</main>
+
+<footer><div class="wrap foot"><div>© 2026 Kelly's Bakery</div><div>Homemade treats for every table.</div></div></footer>
+</body>
+</html>
